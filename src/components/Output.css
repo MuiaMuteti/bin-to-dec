@@ -1,0 +1,28 @@
+.output {
+    margin-top: 1.5em;
+    height: 100px;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 10px 10px 10px rgba(100, 100, 100, 0.5);
+}
+
+.output .desc {
+    font-size: 1em;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.output .result {
+    font-size: 2.1em;
+    font-weight: bold;
+    margin-top: 0.3em;
+    /* overflow-wrap: break-word; */
+    overflow: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .output {
+        height: 150px;
+    }
+}

@@ -1,0 +1,16 @@
+.mode {
+    margin-top: 1.5em;
+}
+
+.mode p {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.modeControls {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    margin-top: 5px;
+}
